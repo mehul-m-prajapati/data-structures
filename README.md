@@ -47,7 +47,7 @@ typedef struct node {
 
 } node;
 ```
-
+<img src="http://2.bp.blogspot.com/-jVJb1Yjem3Y/UJEqsa6S1nI/AAAAAAAAFK4/DoJekCAOTXA/s1600/bst.png" width="400">
 
 ### Stack (last-in, first-out)
 ```
