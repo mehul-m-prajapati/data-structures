@@ -1,4 +1,8 @@
-## Commonly used data structures
+### Common Operations
+- Insert
+- Delete
+- Update
+- Search
 
 ### Arrays
 
@@ -11,12 +15,7 @@ typedef struct node {
 
 } node;
 ```
-![ll](http://www.cs.usfca.edu/~srollins/courses/cs112-f08/web/notes/linkedlists/ll2.gif)
-#### Operations
-- Insert
-- Delete
-- Update
-- Search
+<img src="http://www.cs.usfca.edu/~srollins/courses/cs112-f08/web/notes/linkedlists/ll2.gif" width="400">
 
 ### Stack (last-in, first-out)
 ```
@@ -27,7 +26,7 @@ typedef struct {
   
 } stack;
 ```
-![s](https://www.tutorialspoint.com/data_structures_algorithms/images/stack_representation.jpg)
+<img src="https://www.tutorialspoint.com/data_structures_algorithms/images/stack_representation.jpg" width="400">
 #### Operations
 - Push
 - Pop
@@ -42,7 +41,7 @@ typeded struct {
   
 } queue;
 ```
-![Q](https://netmatze.files.wordpress.com/2014/08/queue.png)
+<img src="https://netmatze.files.wordpress.com/2014/08/queue.png" width="400">
 ### Operations
 - Enqueue
 - Dequeue
@@ -62,4 +61,4 @@ typedef struct node {
   struct node *right;
 
 } node;
-```
+``1
