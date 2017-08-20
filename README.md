@@ -1,6 +1,7 @@
 ## Commonly used data structures
 
-### Array
+### Arrays
+
 ### Linked list
 ```
 typedef struct node {
@@ -10,15 +11,13 @@ typedef struct node {
 
 } node;
 ```
-![ll](http://www.cs.usfca.edu/~srollins/courses/cs112-f07/web/notes/linkedlists/ll4.gif)
-
+![ll](http://www.cs.usfca.edu/~srollins/courses/cs112-f08/web/notes/linkedlists/ll2.gif)
 #### Operations
 - Insert
 - Delete
 - Update
 - Search
 
-### Queue (first-in, first-out)
 ### Stack (last-in, first-out)
 ```
 typedef struct {
@@ -28,12 +27,12 @@ typedef struct {
   
 } stack;
 ```
+![s](https://www.tutorialspoint.com/data_structures_algorithms/images/stack_representation.jpg)
 #### Operations
 - Push
 - Pop
 
-![s](https://www.tutorialspoint.com/data_structures_algorithms/images/stack_representation.jpg)
-
+### Queue (first-in, first-out)
 ```
 typeded struct {
 
@@ -43,11 +42,10 @@ typeded struct {
   
 } queue;
 ```
+![Q](https://netmatze.files.wordpress.com/2014/08/queue.png)
 ### Operations
 - Enqueue
 - Dequeue
-
-![Q](https://netmatze.files.wordpress.com/2014/08/queue.png)
 
 - A stack and queue are both abstract data types, where we can implement them in any number of different ways but expect the same properties and operations.
 
