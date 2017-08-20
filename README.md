@@ -27,6 +27,7 @@ typedef struct {
 } stack;
 ```
 <img src="https://www.tutorialspoint.com/data_structures_algorithms/images/stack_representation.jpg" width="400">
+
 #### Operations
 - Push
 - Pop
@@ -42,6 +43,7 @@ typeded struct {
 } queue;
 ```
 <img src="https://netmatze.files.wordpress.com/2014/08/queue.png" width="400">
+
 ### Operations
 - Enqueue
 - Dequeue
@@ -61,4 +63,4 @@ typedef struct node {
   struct node *right;
 
 } node;
-``1
+```
