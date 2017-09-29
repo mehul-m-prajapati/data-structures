@@ -3,12 +3,12 @@
 - Delete
 - Update
 - Search
-
+---
 ### Arrays
 ```
 int num[100];
 ```
-
+---
 ### Linked list
 ```
 typedef struct node {
@@ -20,6 +20,7 @@ typedef struct node {
 ```
 <img src="http://www.cs.usfca.edu/~srollins/courses/cs112-f08/web/notes/linkedlists/ll2.gif" width="400">
 
+---
 ### Hash map (AKA hash table)
 ```
 #define MAX_NUM_ALPHA           26
@@ -37,6 +38,7 @@ node *pTable[MAX_NUM_ALPHA] = { NULL };
 ```
 <img src="http://www.cse.unt.edu/~donr/courses/2050/images/Figure1249.gif" width="400">
 
+---
 ### Tree
 ```
 typedef struct node {
@@ -49,6 +51,7 @@ typedef struct node {
 ```
 <img src="http://2.bp.blogspot.com/-jVJb1Yjem3Y/UJEqsa6S1nI/AAAAAAAAFK4/DoJekCAOTXA/s1600/bst.png" width="400">
 
+---
 ### Stack (last-in, first-out)
 ```
 typedef struct {
@@ -64,6 +67,7 @@ typedef struct {
 - Push
 - Pop
 
+---
 ### Queue (first-in, first-out)
 ```
 typeded struct {
